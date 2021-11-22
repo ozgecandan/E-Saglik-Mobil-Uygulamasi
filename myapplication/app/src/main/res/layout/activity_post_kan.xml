@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KanBagis.KanBagis"
+    android:background="#ffffff">
+
+
+    <Spinner
+        android:id="@+id/spinSehir"
+        android:layout_width="231dp"
+        android:layout_height="44dp"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="29dp"
+        android:fitsSystemWindows="true"/>
+
+    <Spinner
+        android:id="@+id/spinKan"
+        android:layout_width="233dp"
+        android:layout_height="42dp"
+        android:layout_alignStart="@+id/spinSehir"
+        android:layout_alignTop="@+id/textView4"
+        android:fitsSystemWindows="true"/>
+
+    <Spinner
+        android:id="@+id/spinHastane"
+        android:layout_width="231dp"
+        android:layout_height="52dp"
+        android:layout_alignStart="@+id/spinSehir"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="100dp"
+        android:layout_height="34dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="215dp"
+        android:layout_toStartOf="@+id/spinSehir"
+        android:text="Kan Grubu:"
+        android:textColor="#000"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:fitsSystemWindows="true"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="100dp"
+        android:layout_height="39dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="151dp"
+        android:layout_toStartOf="@+id/spinSehir"
+        android:text="Telefon:"
+        android:textColor="#000"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:fitsSystemWindows="true"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="79dp"
+        android:layout_height="36dp"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_centerVertical="true"
+        android:text="Hastane:"
+        android:textColor="#000"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:fitsSystemWindows="true"/>
+
+    <TextView
+
+        android:id="@+id/textView1"
+        android:layout_width="83dp"
+        android:layout_height="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_marginTop="216dp"
+        android:text="Şehir:"
+        android:textColor="#000"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:fitsSystemWindows="true"/>
+
+    <Button
+        android:id="@+id/btnYayınla"
+        android:layout_width="151dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="75dp"
+        android:layout_marginEnd="37dp"
+        android:background="@drawable/reg_btn_style"
+        android:onClick="send_sms"
+        android:text="Yayınla"
+        android:textColor="#fff"
+        android:fitsSystemWindows="true"/>
+
+    <EditText
+        android:id="@+id/editTelefon"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_alignStart="@+id/spinSehir"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:fitsSystemWindows="true"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="159dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        app:srcCompat="@drawable/logoo"
+        android:fitsSystemWindows="true"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_gravity="top"
+        android:layout_marginStart="13dp"
+        android:background="@drawable/cercleshape"
+        app:backgroundTint="@color/colorAccent"
+        app:srcCompat="@drawable/ic_arrow_back_black_24dp" />
+
+
+
+
+</RelativeLayout>

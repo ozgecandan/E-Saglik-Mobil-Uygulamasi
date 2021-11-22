@@ -1,0 +1,850 @@
+<resources>
+    <string-array name="Sehirler">
+        <item>Sehir Seçiniz</item>
+        <item>Adana</item>
+        <item>Adıyaman</item>
+        <item>Afyon</item>
+        <item>Ağrı</item>
+        <item>Amasya</item>
+        <item>Ankara</item>
+        <item>Antalya</item>
+        <item>Artvin</item>
+        <item>Aydın</item>
+        <item>Balıkesir</item>
+        <item>Bilecik</item>
+        <item>Bingöl</item>
+        <item>Bitlis</item>
+        <item>Bolu</item>
+        <item>Burdur</item>
+        <item>Bursa</item>
+        <item>Çanakkale</item>
+        <item>Çankırı</item>
+        <item>Çorum</item>
+        <item>Denizli</item>
+        <item>Diyarbakır</item>
+        <item>Edirne</item>
+        <item>Elazığ</item>
+        <item>Erzincan</item>
+        <item>Erzurum</item>
+        <item>Eskişehir</item>
+        <item>Gaziantep</item>
+        <item>Giresun</item>
+        <item>Gümüşhane</item>
+        <item>Hakkari</item>
+        <item>Hatay</item>
+        <item>Isparta</item>
+        <item>İstanbul</item>
+        <item>İzmir</item>
+        <item>Kars</item>
+        <item>Kastamonu</item>
+        <item>Kayseri</item>
+        <item>Kırklareli</item>
+        <item>Kırşehir</item>
+        <item>Kocaeli</item>
+        <item>Konya</item>
+        <item>Kütahya</item>
+        <item>Malatya</item>
+        <item>Manisa</item>
+        <item>Kahramanmaraş</item>
+        <item>Mardin</item>
+        <item>Muğla</item>
+        <item>Muş</item>
+        <item>Nevşehir</item>
+        <item>Niğde</item>
+        <item>Ordu</item>
+        <item>Rize</item>
+        <item>Sakarya</item>
+        <item>Samsun</item>
+        <item>Siirt</item>
+        <item>Sinop</item>
+        <item>Sivas</item>
+        <item>Tekirdağ</item>
+        <item>Tokat</item>
+        <item>Trabzon</item>
+        <item>Tunceli</item>
+        <item>Şanlıurfa</item>
+        <item>Uşak</item>
+        <item>Van</item>
+        <item>Yozgat</item>
+        <item>Zonguldak</item>
+        <item>Aksaray</item>
+        <item>Bayburt</item>
+        <item>Karaman</item>
+        <item>Kırıkkale</item>
+        <item>Batman</item>
+        <item>Şırnak</item>
+        <item>Bartın</item>
+        <item>Ardahan</item>
+        <item>Iğdır</item>
+        <item>Yalova</item>
+        <item>Karabük</item>
+        <item>Kilis</item>
+        <item>Osmaniye</item>
+        <item>Düzce</item>
+
+
+    </string-array>
+
+    <string-array name="SecilenYok">
+        <item>Hastane Seçiniz</item>
+    </string-array>
+    <string-array name="AdanaHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Ceyhan Devlet Hastanesi</item>
+        <item>Çukurova Devlet Hastanesi</item>
+        <item>İmamoğlu Devlet Hastanesi</item>
+        <item>Karaisalı Devlet Hastanesi</item>
+        <item>Kozan Devlet Hastanesi</item>
+        <item>Pozantı 80.Devlet Hastanesi</item>
+        <item>Yeni Şehir Hastanesi</item>
+
+    </string-array>
+    <string-array name="AdiyamanHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Besni Devlet Hastanesi</item>
+        <item>Çelikhan Devlet Hastanesi</item>
+        <item>Gölbaşı Devlet Hastanesi</item>
+        <item>Kahta Devlet Hastanesi</item>
+    </string-array>
+    <string-array name="AfyonHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Çay Devlet Hastanesi</item>
+        <item>Afyonkarahisar Devlet Hastanesi</item>
+        <item>Dinar Devlet Hastanesi</item>
+        <item>Emirdağ Devlet Hastanesi</item>
+        <item>İscehisar Devlet Hastanesi</item>
+        <item>Sandıklı Devlet Hastanesi</item>
+    </string-array>
+    <string-array name="AgriHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Ağrı Devlet Hastanesi</item>
+        <item>Ağrı Diyadin Devlet Hastanesi</item>
+        <item>Eleşkirt Devlet Hastanesi</item>
+        <item>Hamur İlçe Devlet Hastanesi</item>
+        <item>Ağrı Patnos Devlet Hastanesi</item>
+        <item>Tutak Devlet Hastanesi</item>
+    </string-array>
+    <string-array name="AmasyaHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Gümüşhacıköy Devlet Hastanesi</item>
+        <item>Merzifon Kara Mustafa Paşa Devlet Hastanesi</item>
+        <item>Suluova Devlet Hastanesi:</item>
+        <item>Taşova Devlet Hastanesi</item>
+    </string-array>
+    <string-array name="AnkaraHastane">
+        <item>Hastane Seçiniz</item>
+        <item>29 Mayıs Devlet Hastanesi</item>
+        <item>Akyurt Devlet Hastanesi</item>
+        <item>Sanatoryum Hastanesi</item>
+        <item>Beypazarı Devlet Hastanesi</item>
+        <item>Eski Beytepe Askeri Hastanesi</item>
+        <item>Dışkapı Eğitim Ve Araştırma Hastanesi</item>
+        <item>Onkolojı Eğt. Ve Araş. Hastanesi</item>
+        <item>Dr. Hulusi Alataş Elmadağ Devlet Hastanesi</item>
+        <item>Ankara Eğitim Ve Araştırma Hastanesi</item>
+        <item> Gazi Mustafa Kemal Devlet Hastanesi</item>
+        <item>Halil Şıvgın Çubuk Devlet Hastanesi</item>
+        <item>Keçiören Eğitim Ve Araştırma Hastanesi</item>
+        <item>Nallıhan Devlet Hastanesi</item>
+        <item>Sincan Devlet Hastanesi</item>
+        <item>Ulucanlar Göz Eğitim Ve Araştırma Hastanesi</item>
+    </string-array>
+    <string-array name="AntalyaHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Akseki İlçe Devlet Hastanesi</item>
+        <item>Atatürk Devlet Hastanesi</item>
+        <item>Antalya Eğitim Ve Araştırma Hastanesi</item>
+        <item>Elmalı Devlet Hastanesi</item>
+        <item>Finike Devlet Hastanesi</item>
+        <item>Gazipaşa Devlet Hastanesi</item>
+        <item>Kaş Devlet Hastanesi</item>
+        <item>Kemer Devlet Hastanesi</item>
+        <item>Kepez Devlet Hastanesi</item>
+        <item>Korkuteli Devlet Hastanesi</item>
+        <item>Kumluca Devlet Hastanesi</item>
+        <item>Manavgat Devlet Hastanesi</item>
+        <item>Serik Devlet Hastanesi</item>
+    </string-array>
+    <string-array name="ArtvinHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Arhavi Devlet Hastanesi</item>
+        <item>Borçka Devlet Hastanesi</item>
+        <item>Artvin Devlet Hastanesi</item>
+        <item> Hopa Devlet Hastanesi</item>
+        <item>Şavşat Devlet Hastanesi</item>
+    </string-array>
+    <string-array name="AydinHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Atatürk Devlet Hastanesi</item>
+        <item>Çine Devlet Hastanesi</item>
+        <item>Aydın Devlet Hastanesi</item>
+        <item>Didim Devlet Hastanesi</item>
+        <item>Kuşadası Devlet Hastanesi</item>
+        <item>Nazilli Devlet Hastanesi</item>
+        <item>Söke Fehime Faik Kocagöz Devlet Hastanesi</item>
+    </string-array>
+    <string-array name="BalıkesirHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Atatürk Şehir Hastanesi</item>
+        <item>Ayvalık Devlet Hastanesi</item>
+        <item>Bandırma Devlet Hastanesi</item>
+        <item>Bigadiç Devlet Hastanesi</item>
+        <item>Burhaniye Devlet Hastanesi</item>
+        <item>Balıkesir Devlet Hastanesi</item>
+        <item>Dursunbey Devlet Hastanesi</item>
+        <item>Gönen Devlet Hastanesi</item>
+        <item>Susurluk Devlet Hastanesi</item>
+        <item>Manyas Devlet Hastanesi</item>
+        <item>Savaştepe Devlet Hastanesi</item>
+        <item>Susurluk Devlet Hastanesi</item>
+    </string-array>
+    <string-array name="BilecikHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Bozüyük Devlet Hastanesi</item>
+        <item>Bilecik Devlet Hastanesi</item>
+        <item>Osmaneli Devlet Hastanesi</item>
+        <item>Söğüt Devlet Hastanesi</item>
+    </string-array>
+    <string-array name="BingölHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Bingöl Devlet Hastanesi</item>
+        <item>Genç Devlet Hastanesi</item>
+        <item>Karlıova İlçe Hastanesi</item>
+        <item> Solhan Devlet Hastanesi</item>
+    </string-array>
+    <string-array name="BitlisHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Adilcevaz Onkoloji Hastanesi</item>
+        <item>Ahlat Devlet Hastanesi</item>
+        <item>Bitlis Devlet Hastanesi</item>
+        <item> Güroymak Devlet Hastanesi</item>
+        <item>Mutki İlçe Hastanesi</item>
+    </string-array>
+    <string-array name="BoluHastane">
+        <item>Hastane Seçiniz</item>
+        <item>İzzet Baysal Eğitim Ve Araştırma Hastanesi</item>
+        <item>Gerede Devlet Hastanesi</item>
+        <item>İzzet Baysal Devlet Hastanesi</item>
+        <item>Mudurnu İlçe Hastanesi</item>
+    </string-array>
+    <string-array name="BurdurHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Bucak Devlet Hastanesi</item>
+        <item>Burdur Devlet Hastanesi</item>
+        <item>Gölhisar Devlet Hastanesi</item>
+    </string-array>
+    <string-array name="BursaHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Ali Osman Sönmez Onkoloji Hastanesi</item>
+        <item>Çekirge Devlet Hastanesi</item>
+        <item>Bursa Devlet Hastanesi</item>
+        <item>Duaçınarı Ağız Ve Diş Sağlığı Merkezi</item>
+        <item>Gemlik Devlet Hastanesi</item>
+        <item>İnegöl Devlet Hastanesi</item>
+        <item>Karacabey Devlet Hastanesi</item>
+        <item>Yenişehir Devlet Hastanesi</item>
+    </string-array>
+    <string-array name="CanakkaleHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Ayvacık Devlet Hastanesi</item>
+        <item>Bayramiç Devlet Hastanesi</item>
+        <item>Biga Devlet Hastanesi</item>
+        <item>Çan Devlet Hastanesi</item>
+        <item>Ezine Devlet Hastanesi</item>
+        <item>Gelibolu Şehit Koray Onay Devlet Hastanesi</item>
+        <item> Yenice Devlet Hastanesi</item>
+    </string-array>
+    <string-array name="CankiriHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Çerkeş Devlet Hastanesi</item>
+        <item>Çankırı Devlet Hastanesi</item>
+        <item>Kurşunlu İlçe Hastanesi</item>
+    </string-array>
+    <string-array name="CorumHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Alaca Devlet Hastanesi</item>
+        <item>Bayat Devlet Hastanesi</item>
+        <item>İskilip Devlet Hastanesi</item>
+        <item>Kargı Devlet Hastanesi</item>
+        <item>Mecitözü Devlet Hastanesi</item>
+        <item>Sungurlu Devlet Hastanesi</item>
+    </string-array>
+    <string-array name="DenizliHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Acıpayam Devlet Hastanesi</item>
+        <item>Çal Devlet Hastanesi</item>
+        <item>Çameli Devlet Hastanesi</item>
+        <item>Denizli Devlet Hastanesi</item>
+        <item>Honaz Devlet Hastanesi</item>
+        <item>Kale Devlet Hastanesi</item>
+
+    </string-array>
+    <string-array name="DiyarbakırHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Bismil Devlet Hastanesi</item>
+        <item>Çermik Devlet Hastanesi</item>
+        <item>Çınar İlçe Hastanesi</item>
+        <item>Dicle İlçe Hastanesi</item>
+        <item>Eğil İlçe Hastanesi</item>
+        <item>Kulp İlçe Hastanesi</item>
+        <item>Lice Halis Toprak Vakfı Devlet Hastanesi</item>
+
+    </string-array>
+    <string-array name="EdirneHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Keşan Devlet Hastanesi</item>
+        <item>Sultan 1. Murat Devlet Hastanesi</item>
+        <item>Uzunköprü Devlet Hastanesi</item>
+
+    </string-array>
+    <string-array name="ElazigHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Fethi Sekin Şehir Hastanesi</item>
+        <item>Karakoçan Devlet Hastanesi</item>
+        <item>Kovancılar Devlet Hastanesi</item>
+        <item>Palu Devlet Hastanesi</item>
+        <item>Maden Şehit Cengiz Erdur İlçe Devlet Hastanesi</item>
+    </string-array>
+    <string-array name="ErzincanHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Binali Yıldırım Mengücek Gazi Eğitim Ve Araştırma Hastanesi</item>
+        <item>Refahiye Dr. Fahrettin Uğur İlçe Hastanesi</item>
+        <item>Tercan Devlet Hastanesi</item>
+    </string-array>
+    <string-array name="ErzurumHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Aşkale İlçe Hastanesi</item>
+        <item>Bölge Eğitim Ve Araştırma Hastanesi</item>
+        <item>Çat İlçe Hastanesi</item>
+        <item>Hınıs Şehit Yavuz Yürekseven Devlet Hastanesi</item>
+        <item>Horasan Devlet Hastanesi</item>
+        <item>Karaçoban İlçe Hastanesi</item>
+        <item>Oltu Devlet Hastanesi</item>
+        <item>Pasinler İbrahim Hakkı Devlet Hastanesi</item>
+    </string-array>
+    <string-array name="EskisehirHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Çifteler Devlet Hastanesi</item>
+        <item>Günyüzü İlçe Hastanesi</item>
+        <item>Mihalıççık Gün Sazak İlçe Hastanesi</item>
+        <item>Eskişehir Şehir Hastanesi</item>
+
+    </string-array>
+    <string-array name="GaziantepHastane">
+        <item>Hastane Seçiniz</item>
+        <item>25 Aralık Devlet Hastanesi</item>
+        <item>Araban İlçe Hastanesi</item>
+        <item>İslahiye Devlet Hastanesi</item>
+        <item>Nizip Devlet Hastanesi</item>
+        <item>Oğuzeli İlçe Hastanesi</item>
+        <item>Şehitkamil Devlet Hastanesi</item>
+
+    </string-array>
+    <string-array name="GiresunHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Alucra İlçe Hastanesi</item>
+        <item>Bulancak Devlet Hastanesi</item>
+        <item>Dereli İlçe Hastanesi</item>
+        <item>Espiye Devlet Hastanesi</item>
+        <item>Karahisar Devlet Hastanesi</item>
+        <item>Tirebolu Devlet Hastanesi</item>
+        <item>Yağlıdere İlçe Devlet Hastanesi</item>
+    </string-array>
+    <string-array name="GumushaneHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Gümüşhane Devlet Hastanesi</item>
+        <item>Kelkit Devlet Hastanesi</item>
+        <item>Şiran Devlet Hastanesi</item>
+    </string-array>
+    <string-array name="HakkariHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Çukurca İlçe Devlet Hastanesi</item>
+        <item>Hakkari Devlet Hastanesi</item>
+        <item>Yüksekova Devlet Hastanesi</item>
+    </string-array>
+    <string-array name="HatayHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Altınözü Devlet Hastanesi</item>
+        <item>Hatay Devlet Hastanesi</item>
+        <item>Dörtyol Devlet Hastanesi</item>
+        <item>Erzin Devlet Hastanesi</item>
+        <item>Reyhanlı Devlet Hastanesi</item>
+        <item>Samandağı Devlet Hastanesi</item>
+        <item>Yayladağı İlçe Devlet Hastanesi</item>
+    </string-array>
+    <string-array name="IspartaHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Şarkikaraağaç Devlet Hastanesi</item>
+        <item>Isparta Şehir Hastanesi</item>
+        <item>Şehit Yunus Emre Devlet Hastanesi</item>
+        <item>Yalvaç Devlet Hastanesi</item>
+    </string-array>
+    <string-array name="IstanbulHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Fatih Sultan Mehmet Eğitim Araştırma Hastanesi</item>
+        <item>Beykoz Devlet Hastanesi</item>
+        <item>Haydarpaşa Numune Eğitim Ve Araştırma Hastanesi</item>
+        <item>Dr. Lütfi Kırdar Eğitim Ve Araştırma Hastanesi</item>
+        <item>Maltepe Devlet Hastanesi</item>
+        <item>Pendik Devlet Hastanesi</item>
+        <item>Medeniyet Üniversitesi Göztepe Eğitim Ve Araştırma </item>
+        <item>Sultan Abdülhamid Han Eğitim Ve Araştırma Hastanesi</item>
+        <item>Şehit Prof.Dr.İlhan Varank Eğitim Ve Araştırma Hastanesi</item>
+        <item>Sultanbeyli Devlet Hastanesi</item>
+        <item>Şile Devlet Hastanesi</item>
+        <item>Pendik Eğitim Ve Araştırma Hastanesi</item>
+        <item>Tuzla Devlet Hastanesi</item>
+        <item>Ümraniye Eğitim Ve Araştırma Hastanesi</item>
+        <item>Üsküdar Devlet Hastanesi</item>
+        <item>Arnavutköy Devlet Hastanesi</item>
+        <item>Avcılar Murat Kölük Devlet Hastanesi</item>
+        <item>Bağcılar Eğitim Ve Araştırma Hastanesi</item>
+        <item>Bahçelievler Devlet Hastanesi</item>
+        <item>Dr. Sadi Konuk Eğitim Araştırma Hastanesi</item>
+        <item>Başakşehir Devlet Hastanesi</item>
+        <item>Bayrampaşa Devlet Hastanesi</item>
+        <item>Sait Çiftçi Devlet Hastanesi</item>
+        <item>Beylikdüzü Devlet Hastanesi</item>
+        <item>Mimar Sinan Devlet Hastanesi</item>
+        <item>İlyas Çokay Devlet Hastanesi</item>
+        <item>Necmi Kadıoğlu Devlet Hastanesi</item>
+        <item>Haseki Eğitim Ve Araştırma Hastanesi</item>
+        <item>Eyüpsultan Devlet Hastanesi</item>
+        <item>İstanbul Eğitim Ve Araştırma Hastanesi</item>
+        <item>Taksim Eğitim Ve Araştırma Hastanesi</item>
+        <item>Kağıthane Devlet Hastanesi</item>
+        <item>Kanuni Sultan Süleyman Eğitim Ve Araştırma Hastanesi</item>
+        <item>İstinye Devlet Hastanesi</item>
+        <item>Metin Sabancı Baltalimanı Kemik Hastalıkları Eğitim Araştırma Hastanes</item>
+        <item>Silivri Devlet Hastanesi</item>
+        <item>Hamidiye Etfal Eğitim Ve Araştırma Hastanesi</item>
+        <item>Okmeydanı Eğitim Ve Araştırma Hastanesi</item>
+        <item>Topçular Ağız Ve Diş Sağlığı Merkezi</item>
+    </string-array>
+    <string-array name="IzmirHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Aliağa Devlet Hastanesi</item>
+        <item>Alper Çizgenakat Çeşme Devlet Hastanesi</item>
+        <item>Nevvar Salih İşgören Devlet Hastanesi</item>
+        <item>Bayındır Devlet Hastanesi</item>
+        <item>Bergama Necla Mithat Öztüre Devlet Hastanesi</item>
+        <item>Çiğli Bölge Eğitim Hastanesi</item>
+        <item>Dikili Devlet Hastanesi</item>
+        <item>Foça Devlet Hastanesi</item>
+        <item>Gaziemir Nevvar Salih İşgören Devlet Hastanesi</item>
+        <item>Kemalpaşa Devlet Hastanesi</item>
+        <item>Menemen Devlet Hastanesi</item>
+        <item>Ödemiş Devlet Hastanesi</item>
+        <item>Urla Devlet Hastanesi</item>
+    </string-array>
+    <string-array name="KarsHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Arpaçay İlçe Devlet Hastanesi</item>
+        <item>Digor İlçe Devlet Hastanesi</item>
+        <item>Harakani Devlet Hastanesi</item>
+        <item>Kağızman Devlet Hastanesi</item>
+        <item>Selim İlçe Hastanesi</item>
+    </string-array>
+    <string-array name="KastamonuHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Araç İlçe Devlet Hastanesi</item>
+        <item>Bozkurt Devlet Hastanesi</item>
+        <item>Cide Devlet Hastanesi</item>
+        <item>Kastamonu Devlet Hastanesi</item>
+        <item>İnebolu Devlet Hastanesi</item>
+        <item>Tosya Devlet Hastanesi</item>
+    </string-array>
+    <string-array name="KayseriHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Bünyan Devlet Hastanesi</item>
+        <item>Kayseri Devlet Hastanesi</item>
+        <item>İncesu İlçe Hastanesi</item>
+        <item>Pınarbaşı İlçe Hastanesi</item>
+        <item>Kayseri Şehir Hastanesi</item>
+        <item>Tomarza Devlet Hastanesi</item>
+        <item>Yeşilhisarilçe Devlet Hastanesi</item>
+    </string-array>
+    <string-array name="KirklareliHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Babaeski Devlet Hastanesi</item>
+        <item>Kırklareli Devlet Hastanesi</item>
+        <item>Lüleburgaz Devlet Hastanesi</item>
+        <item>Pınarhisar Devlet Hastanesi</item>
+        <item>Vize Devlet Hastanesi</item>
+    </string-array>
+    <string-array name="KirsehirHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Ahi Evran Üniversitesi Eğitim Ve Araştırma Hastanesi</item>
+        <item> Kaman Devlet Hastanesi</item>
+    </string-array>
+    <string-array name="KocaeliHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Darıca Eğitim Ve Araştırma Hastanesi</item>
+        <item>Derince Eğitim Ve Araştırma Hastanesi</item>
+        <item>Kocaeli Devlet Hastanesi</item>
+        <item>Dilovası Devlet Hastanesi</item>
+        <item>Gebze Fatih Devlet Hastanesi</item>
+        <item>Gölcük Necati Çelik Devlet Hastanesi</item>
+        <item>İzmit Seka Devlet Hastanesi</item>
+        <item>Kandıra Kazım Dinç Devlet Hastanesi</item>
+        <item>Karamürsel Devlet Hastanesi</item>
+        <item>Körfez Devlet Hastanesi</item>
+
+    </string-array>
+    <string-array name="KonyaHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Akşehir Devlet Hastanesi</item>
+        <item>Beyhekim Devlet Hastanesi</item>
+        <item>Beyşehir Devlet Hastanesi</item>
+        <item>Bozkır Devlet Hastanesi</item>
+        <item>Çumra Devlet Hastanesi</item>
+        <item>Doğanhisar Devlet Hastanesi</item>
+        <item>Dr. Vefa Tanır Ilgın Devlet Hastanesi</item>
+        <item>Ereğli Devlet Hastanesi</item>
+        <item>Hadim Devlet Hastanesi</item>
+        <item>Hüyük Devlet Hastanesi</item>
+        <item>Kulu Devlet Hastanesi</item>
+        <item>Numune Hastanesi</item>
+        <item>Yunak Hacı İzzet Baysal Devlet Hastanesi</item>
+
+    </string-array>
+    <string-array name="KutahyaHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Doç. Dr. İsmail Karakuyu Simav Devlet Hastanesi</item>
+        <item>Fazıl Doğan Devlet Hastanesi</item>
+        <item>Gediz Devlet Hastanesi</item>
+        <item>Yoncalı Fizik Tedavi Ve Rehabilitasyon Hastanesi</item>
+        <item> Mustafa Kalemli Tavşanlı Devlet Hastanesi</item>
+
+    </string-array>
+    <string-array name="MalatyaHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Akçadağ Şehit Gökhan Aslan Devlet Hastanesi</item>
+        <item>Arapgir İlçe Hastanesi</item>
+        <item>Darende Hulusi Efendi Devlet Hastanesi</item>
+        <item>Hekimhan Devlet Hastanesi</item>
+        <item>Malatya Eğitim Ve Araştırma Hastanesi</item>
+    </string-array>
+    <string-array name="ManisaHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Akhisar Devlet Hastanesi</item>
+        <item>Alaşehir Devlet Hastanesi</item>
+        <item>Gördes Devlet Hastanesi</item>
+        <item>Kula Devlet Hastanesi</item>
+        <item>Sarıgöl Devlet Hastanesi</item>
+        <item>Manisa Şehir Hastanesi</item>
+        <item>Turgutlu Devlet Hastanesi</item>
+        <item>Saruhanlı Devlet Hastanesi</item>
+    </string-array>
+    <string-array name="KahramanmarasHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Afşin Devlet Hastanesi</item>
+        <item>Andırın Devlet Hastanesi</item>
+        <item>Çağlayancerit İlçe Hastanesi</item>
+        <item>Dr. Süreyya Adanalı Göksun Devlet Hastanesi</item>
+        <item>Elbistan Devlet Hastanesi</item>
+        <item>Necip Fazıl Şehir Devlet Hastanesi</item>
+        <item>Pazarcık Devlet Hastanesi</item>
+    </string-array>
+    <string-array name="MardinHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Dargeçit İlçe Hastanesi</item>
+        <item>Derik Devlet Hastanesi</item>
+        <item>Mardin Devlet Hastanesi</item>
+        <item>Kızıltepe Devlet Hastanesi</item>
+        <item>Midyat Devlet Hastanesi</item>
+        <item>Ömerli İlçe Devlet Hastanesi</item>
+        <item>Savur Prof.Dr.Aziz Sancar İlçe Devlet Hastanesi</item>
+    </string-array>
+    <string-array name="MuglaHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Bodrum Devlet Hastanesi</item>
+        <item>Dalaman Devlet Hastanesi</item>
+        <item>Datça Devlet Hastanesi</item>
+        <item>Fethiye Devlet Hastanesi</item>
+        <item>Köyceğiz Devlet Hastanesi</item>
+        <item>Marmaris Devlet Hastanesi</item>
+        <item>Milas 75. Yıl Devlet Hastanesi</item>
+        <item>Yatağan Devlet Hastanesi</item>
+
+    </string-array>
+    <string-array name="MusHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Bulanık Devlet Hastanesi</item>
+        <item>Muş Devlet Hastanesi</item>
+        <item>Korkut İlçe Hastanesi</item>
+        <item>Varto Devlet Hastanesi</item>
+    </string-array>
+    <string-array name="NevsehirHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Nevşehir Devlet Hastanesi</item>
+        <item>Ürgüp Devlet Hastanesi</item>
+    </string-array>
+    <string-array name="NigdeHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Bor Devlet Hastanesi</item>
+        <item>Çiftlik İlçe Hastanesi</item>
+        <item> Ömer Halisdemir Üniversitesi Eğitim Ve Araştırma Hastanesi</item>
+        <item>Ulukışla İlçe Hastanesi</item>
+    </string-array>
+    <string-array name="OrduHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Akkuş Devlet Hastanesi</item>
+        <item>Aybastı Devlet Hastanesi</item>
+        <item>Ordu Devlet Hastanesi</item>
+        <item>Fatsa Devlet Hastanesi</item>
+        <item>Gölköy Devlet Hastanesi</item>
+        <item>Gürgentepe Devlet Hastanesi</item>
+        <item>Korgan Devlet Hastanesi</item>
+        <item>Ünye Devlet Hastanesi</item>
+    </string-array>
+    <string-array name="RizeHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Rize Devlet Hastanesi</item>
+        <item>Güneysu Tenzile Erdoğan İlçe Hastanesi</item>
+        <item>İshakoğlu Çayeli Devlet Hastanesi</item>
+        <item>Recep Tayyip Erdoğan Üniversitesi Eğitim Ve Araştırma Hastanesi</item>
+    </string-array>
+    <string-array name="SakaryaHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Akyazı Devlet Hastanesi</item>
+        <item>Ferizli İlçe Hastanesi</item>
+        <item>Hendek Devlet Hastanesi</item>
+        <item>Kaynarca İlçe Hastanesi</item>
+        <item>Kocaali İlçe Hastanesi</item>
+        <item>Pamukova Devlet Hastanesi</item>
+        <item>Toyotasa Acil Yardım Hastanesi</item>
+        <item>Yenikent Devlet Hastanesi</item>
+    </string-array>
+    <string-array name="SamsunHastane">
+        <item>Hastane Seçiniz</item>
+        <item>19 Mayıs İlçe Devlet Hastanesi</item>
+        <item>Alaçam Devlet Hastanesi</item>
+        <item>Asarcık İlçe Hastanesi</item>
+        <item>Ayvacık Devlet Hastanesi</item>
+        <item>Bafra Devlet Hastanesi</item>
+        <item>Samsun Eğitim Ve Araştırma Hastanesi</item>
+        <item>Gazi Devlet Hastanesi</item>
+        <item>Salıpazarı İlçe Hastanesi</item>
+        <item>Vezirköprü Devlet Hastanesi</item>
+        <item>Kavak Devlet Hastanesi</item>
+        <item>Havza Devlet Hastanesi</item>
+    </string-array>
+    <string-array name="SiirtHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Baykan Devlet Hastanesi</item>
+        <item>Siirt Devlet Hastanesi</item>
+        <item>Siirt Eruh İlçe Hastanesi</item>
+        <item>Kurtalan Devlet Hastanesi</item>
+        <item>Pervari İlçe Hastanesi</item>
+    </string-array>
+    <string-array name="SinopHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Atatürk Devlet Hastanesi</item>
+        <item>Ayancık Devlet Hastanesi</item>
+        <item>Boyabat 75. Yıl Devlet Hastanesi</item>
+        <item>Durağan Devlet Hastanesi</item>
+        <item>Gerze Devlet Hastanesi</item>
+        <item>Türkeli Devlet Hastanesi</item>
+    </string-array>
+    <string-array name="SivasHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Divriği Sadık Özgür Devlet Hastanesi</item>
+        <item>Gemerek Devlet Hastanesi</item>
+        <item>Gürün Devlet Hastanesi</item>
+        <item>Kangal Devlet Hastanesi</item>
+        <item>Sivas Numune Hastanesi</item>
+        <item>Zara Devlet Hastanesi</item>
+    </string-array>
+    <string-array name="TekirdagHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Çerkezköy Devlet Hastanesi</item>
+        <item>Çorlu Devlet Hastanesi</item>
+        <item>Tekirdağ Devlet Hastanesi</item>
+        <item>Kapaklı Devlet Hastanesi</item>
+        <item>Malkara Devlet Hastanesi</item>
+        <item>Marmara Ereğlisi İlçe Devlet Hastanesi</item>
+        <item>Saray Devlet Hastanesi</item>
+        <item>Şarköy Devlet Hastanesi</item>
+    </string-array>
+    <string-array name="TokatHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Almus Devlet Hastanesi</item>
+        <item>Tokat Devlet Hastanesi</item>
+        <item>Erbaa Devlet Hastanesi</item>
+        <item>Niksar Devlet Hastanesi</item>
+        <item>Reşadiye Devlet Hastanesi</item>
+        <item>Zile Devlet Hastanesi</item>
+
+    </string-array>
+    <string-array name="TrabzonHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Akçaabat Haçkalı Baba Devlet Hastanesi</item>
+        <item>Araklı Bayram Halil Devlet Hastanesi</item>
+        <item>Fatih Devlet Hastanesi</item>
+        <item>Kanuni Eğitim Ve Araştırma Hastanesi</item>
+        <item>Of Devlet Hastanesi</item>
+        <item>Sürmene Devlet Hastanesi</item>
+        <item>Tonya Devlet Hastanesi</item>
+        <item>Vakfıkebir Devlet Hastanesi</item>
+
+
+    </string-array>
+    <string-array name="TunceliHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Tunceli Devlet Hastanesi</item>
+    </string-array>
+    <string-array name="SanliurfaHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Akçakale Devlet Hastanesi</item>
+        <item>Balıklıgöl Devlet Hastanesi</item>
+        <item>Birecik Devlet Hastanesi</item>
+        <item>Ceylanpınar Devlet Hastanesi</item>
+        <item>Halfeti İlçe Hastanesi</item>
+        <item>Harran Devlet Hastanesi</item>
+        <item>Hilvan Şehit Halit Şiltak Devlet Hastanesi</item>
+        <item>Siverek Devlet Hastanesi</item>
+        <item>Viranşehir Devlet Hastanesi</item>
+
+    </string-array>
+    <string-array name="UsakHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Banaz Devlet Hastanesi</item>
+        <item>Eşme Devlet Hastanesi</item>
+        <item>Sivaslı Devlet Hastanesi</item>
+        <item>Uşak Üniversitesi Eğitim Ve Araştırma Hastanesi</item>
+    </string-array>
+    <string-array name="VanHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Bahçesaray İlçe Hastanesi</item>
+        <item>Başkale Devlet Hastanesi</item>
+        <item>Van Bölge Eğitim Ve Araştırma Hastanesi</item>
+        <item>Çaldıran İlçe Hastanesi</item>
+        <item>Çatak İlçe Hastanesi</item>
+        <item>Muradiye Devlet Hastanesi</item>
+        <item>Özalp Devlet Hastanesi</item>
+    </string-array>
+    <string-array name="YozgatHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Akdağmadeni Devlet Hastanesi</item>
+        <item>Boğazlıyan Devlet Hastanesi</item>
+        <item>Çayıralan İlçe Devlet Hastanesi</item>
+        <item>Saraykent İlçe Hastanesi</item>
+        <item>Sarıkaya Devlet Hastanesi</item>
+        <item>Sorgun Devlet Hastanesi</item>
+        <item>Yerköy Devlet Hastanesi</item>
+    </string-array>
+    <string-array name="ZonguldakHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Alaplı Devlet Hastanesi</item>
+        <item>Atatürk Devlet Hastanesi</item>
+        <item>Çaycuma Devlet Hastanesi</item>
+        <item>Devrek Devlet Hastanesi</item>
+        <item>Gökçebey İlçe Hastanesi</item>
+        <item>Karadeniz Ereğli Devlet Hastanesi</item>
+    </string-array>
+    <string-array name="AksarayHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Eskil Devlet Hastanesi</item>
+        <item>Gülağaç İlçe Hastanesi</item>
+        <item>Ortaköy Devlet Hastanesi</item>
+        <item>Aksaray Üniversitesi Eğitim Ve Araştırma Hastanesi</item>
+    </string-array>
+    <string-array name="BayburtHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Bayburt Devlet Hastanesi</item>
+    </string-array>
+    <string-array name="KaramanHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Karaman Devlet Hastanesi</item>
+        <item>Ermenek Devlet Hastanesi</item>
+        <item>Sarıveliler İlçe Devlet Hastanesi</item>
+
+    </string-array>
+    <string-array name="KirikkaleHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Kırıkkale Yüksek İhtisas Hastanesi</item>
+    </string-array>
+    <string-array name="BatmanHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Beşiri İlçe Devlet Hastanesi</item>
+        <item>Batman Bölge Devlet Hastanesi</item>
+        <item>Gercüş Devlet Hastanesi</item>
+        <item>Kozluk Devlet Hastanesi</item>
+    </string-array>
+    <string-array name="SirnakHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Beytüşşebap Devlet Hastanesi</item>
+        <item>Cizre Dr. Selahattin Cizrelioğlu Devlet Hastanesi</item>
+        <item>Şırnak Devlet Hastanesi</item>
+        <item>İdil Devlet Hastanesi</item>
+        <item>Uludere Devlet Hastanesi</item>
+    </string-array>
+    <string-array name="BartinHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Bartın Devlet Hastanesi</item>
+
+    </string-array>
+    <string-array name="ArdahanHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Ardahan Devlet Hastanesi</item>
+        <item>Göle Devlet Hastanesi</item>
+    </string-array>
+    <string-array name="IgdirHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Iğdır Devlet Hastanesi</item>
+        <item>Tuzluca Devlet Hastanesi</item>
+    </string-array>
+    <string-array name="YalovaHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Altınova İlçe Devlet Hastanesi</item>
+        <item>Çınarcık Devlet Hastanesi</item>
+        <item>Yalova Devlet Hastanesi</item>
+
+    </string-array>
+    <string-array name="KarabukHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Safranbolu Devlet Hastanesi</item>
+        <item>Karabük Üniversitesi Karabük Eğitim Ve Araştırma Hastanesi</item>
+        <item>Yenice Devlet Hastanesi</item>
+    </string-array>
+    <string-array name="KilisHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Kilis Devlet Hastanesi</item>
+    </string-array>
+    <string-array name="OsmaniyeHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Osmaniye Devlet Hastanesi</item>
+        <item>Düziçi Devlet Hastanesi</item>
+        <item>Kadirli Devlet Hastanesi</item>
+
+    </string-array>
+    <string-array name="DuzceHastane">
+        <item>Hastane Seçiniz</item>
+        <item>Akçakoca Devlet Hastanesi</item>
+        <item>Atatürk Devlet Hastanesi</item>
+    </string-array>
+
+
+    <string-array name="KanGrubu">
+        <item>Kan Grubu Seçiniz</item>
+        <item>AB Rh+</item>
+        <item>AB Rh-</item>
+        <item>A Rh+</item>
+        <item>A Rh-</item>
+        <item>B Rh+</item>
+        <item>B Rh-</item>
+        <item>0 Rh+</item>
+        <item>0 Rh-</item>
+
+    </string-array>
+
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

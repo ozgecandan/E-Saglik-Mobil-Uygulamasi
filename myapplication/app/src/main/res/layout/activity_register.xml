@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".Giris.RegisterActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/bar_layout"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_below="@+id/toolbar">
+
+
+        <ImageView
+            android:id="@+id/imageView_logo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+            android:src="@drawable/logoo" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/username"
+            android:layout_width="210dp"
+            android:layout_height="55dp"
+            android:layout_below="@+id/imageView_logo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/ic_action_user"
+            android:hint="Kullanıcı Adı"
+            app:met_floatingLabel="normal" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/email"
+            android:layout_width="210dp"
+            android:layout_height="55dp"
+            android:layout_below="@+id/username"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/ic_action_user"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            app:met_floatingLabel="normal" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_below="@+id/email"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/ic_action_pass"
+            android:hint="Şifre (en az 6 karakter)"
+            android:inputType="textPassword"
+            app:met_floatingLabel="normal" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/password2"
+            android:layout_width="215dp"
+            android:layout_height="55dp"
+            android:layout_below="@+id/password"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/ic_action_pass"
+            android:hint="Şifre Tekrar"
+            android:inputType="textPassword"
+            app:met_floatingLabel="normal" />
+
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="190dp"
+            android:layout_height="40dp"
+            android:text="Kayıt Ol"
+            android:textColor="#ffffff"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/password2"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/reg_btn_style" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+

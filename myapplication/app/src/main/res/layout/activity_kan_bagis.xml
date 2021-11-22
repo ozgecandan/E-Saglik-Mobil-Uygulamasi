@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/containerKanBagıs"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KanBagis.KanBagis"
+    android:background="#ffffff">
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="231dp"
+        android:layout_height="79dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="231dp"
+        android:background="@drawable/reg_btn_style"
+        android:fitsSystemWindows="true"
+        android:text="Kan İhtiyacı Duyurusu"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="231dp"
+        android:layout_height="79dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="132dp"
+        android:background="@drawable/reg_btn_style"
+        android:fitsSystemWindows="true"
+        android:text="Kan Bağışında Bulun"
+        android:textColor="#fff" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="339dp"
+        android:layout_height="192dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:fitsSystemWindows="true"
+        app:srcCompat="@drawable/logoo" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/image_view_home"
+        android:layout_width="60dp"
+        android:layout_height="62dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="31dp"
+        android:layout_marginEnd="18dp"
+        android:background="#ff4d4d"
+        android:padding="12dp"
+        app:backgroundTint="@color/colorAccent"
+        app:srcCompat="@drawable/ic_home_black_24dp" />
+
+</RelativeLayout>

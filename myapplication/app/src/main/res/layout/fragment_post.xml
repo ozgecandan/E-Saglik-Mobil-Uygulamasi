@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".KanBagis.PostFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <EditText
+        android:id="@+id/edit"
+        android:layout_width="269dp"
+        android:layout_height="wrap_content"
+        android:hint="Şehir Arayın..." />
+
+    <Button
+        android:id="@+id/search"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="6dp"
+        android:background="@drawable/reg_btn_style"
+        android:text="ARA"
+        android:textColor="#fff" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/postRv"
+        android:layout_width="match_parent"
+        android:layout_height="524dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="top"
+        android:layout_marginBottom="14dp"
+        android:layout_marginStart="13dp"
+        android:background="@drawable/cercleshape"
+        app:backgroundTint="@color/colorAccent"
+        app:srcCompat="@drawable/ic_arrow_back_black_24dp" />
+
+</RelativeLayout>

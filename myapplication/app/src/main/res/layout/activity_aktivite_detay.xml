@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Aktivite.AktiviteDetay">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/back_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="top"
+                android:background="@drawable/cercleshape"
+                app:backgroundTint="@color/pink"
+                app:srcCompat="@drawable/ic_arrow_back_black_24dp" />
+
+            <ImageView
+                android:id="@+id/aktivitefoto"
+                android:layout_width="364dp"
+                android:layout_height="205dp"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/aktiviteadi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Aktivite Adi"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/aktiviteayrinti"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Aktivite Ayrinti"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/sayacTxt"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="00:60"
+                android:textAlignment="center"
+                android:textSize="35sp" />
+
+            <Button
+                android:id="@+id/sayacBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Başla!"
+                android:background="#2d2d"/>
+
+
+        </LinearLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

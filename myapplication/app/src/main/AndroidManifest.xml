@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ongun.myapplication">
+
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"
+        android:allowBackup="true"
+        android:icon="@drawable/logoo"
+        android:label="E-Sağlık"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".Giris.RegisterActivity" />
+        <activity android:name=".Giris.HomeActivity" />
+        <activity android:name=".Giris.LoginActivity" />
+        <activity android:name=".KanBagis.KanBagis" />
+        <activity android:name=".Giris.StartActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".KanBagis.PostKan" />
+        <activity android:name=".YemekTarifleri.YemekDetail" />
+        <activity android:name=".Diyetisyen.MainActivity" />
+        <activity android:name=".Diyetisyen.MessageActivity" />
+        <activity android:name=".Aktivite.AktiviteDetay" />
+        <activity android:name=".Aktivite.AktiviteSayfasi" />
+        <activity android:name=".Giris.PasswordActivity" />
+        <activity android:name=".AboutApp.IntroActivity" />
+    </application>
+
+</manifest>
